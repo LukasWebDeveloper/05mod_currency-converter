@@ -7,6 +7,13 @@ html {
    box-sizing: inherit;
 }
 
+.body {
+   background-image: url(../img/backgroundSite.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+}
+
 .form {
    max-width: 50%;
    margin: 10px auto;
@@ -19,11 +26,12 @@ html {
    margin: 100px auto 50px;
    border: 0px;
    border-radius: 5px;
-   background-color: #d6e2be;
+   background-color: rgba(164, 192, 131, 0.633);
 }
 
 .currencyAmount {
-   width: 140px;
+   width: 150px;
+   padding: 1%;
 }
 
 .fieldset__legend {
@@ -33,7 +41,7 @@ html {
    font-size: 28px;
    border: 2px;
    z-index: 10;
-   background-color: rgb(89, 151, 89);
+   background-color: rgb(90, 119, 55);
    color: rgb(245, 245, 245);
 
 }
