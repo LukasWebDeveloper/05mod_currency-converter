@@ -1,0 +1,39 @@
+html {
+   box-sizing: border-box;
+   font-family: "Lato", sans-serif;
+}
+
+*, ::after, ::before {
+   box-sizing: inherit;
+}
+
+.form {
+   max-width: 50%;
+   margin: 10px auto;
+}
+
+.fieldset {
+   display: block;
+   box-shadow: 8px 7px 32px 1px rgba(84,84,84,1);
+   padding: 5% 10%;
+   margin: 100px auto 50px;
+   border: 0px;
+   border-radius: 5px;
+   background-color: #d6e2be;
+}
+
+.currencyAmount {
+   width: 140px;
+}
+
+.fieldset__legend {
+   margin: auto;
+   padding: 10px 80px;
+   border-radius: 5px;
+   font-size: 28px;
+   border: 2px;
+   z-index: 10;
+   background-color: rgb(89, 151, 89);
+   color: rgb(245, 245, 245);
+
+}
