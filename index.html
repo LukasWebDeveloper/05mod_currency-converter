@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="og:image" content="img/imgSite.jpg"> <!-- ? -->
+   <link rel="icon" href="img/imgSite.png"> <!-- ? -->
+   <title>Homework 5mod Kalkulator</title>
+   <link rel="stylesheet" href="css/style.css">
+   <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body">
+   <form action="" class="form js-form">
+      <fieldset class="fieldset">
+         <legend class="fieldset__legend">Kalkulator walut</legend>
+         <label for="">
+            <p>
+               Kwota w [zł] * :
+               <input class="currencyAmount js-currencyAmount" type="number" placeholder="wprowadź kwotę" min="0" >
+            </p>
+            <p>
+               zamieniona kwota <strong class="rateAmount js-rateAmount">0 zł</strong> na wybraną walutę:
+               <select class="currency js-currency" name="currency" id="">
+                  <option value="PLN" name="zloty">PLN</option>
+                  <option value="EUR" name="euro" selected>EUR</option>
+                  <option value="GBP" name="british-pound">GBP</option>
+                  <option value="USD" name="us-dollar">USD</option>
+                  <option value="CHF" name="frank-switzerland">CHF</option>
+               </select>
+               podana poniżej.
+            </p>
+         </label>
+         <p>
+            Wynik: <strong class="finalAmount js-finalAmount"></strong>
+         </p>
+         <button>Wynik!</button>
+      </fieldset>
+      <p>Kalkulator utworzony 07 stycznia 2025 roku</p>
+      <p>15.01.2025r. - data ostatniej aktualizacji strony</p>
+   </form>
+</body>
+
+</html>
