@@ -37,8 +37,7 @@
       final_amount.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
    }
 
-   const onFormSubmit = (event) => {
-      event.preventDefault()
+   const onFormSubmit = () => {
 
       const currency_amount = document.querySelector(".js-currencyAmount");
       const currencyElement = document.querySelector(".js-currency");
@@ -55,7 +54,7 @@
    const init = () => {
       const formElement = document.querySelector(".js-form");
 
-      formElement.addEventListener("submit", onFormSubmit);
+      formElement.addEventListener("input", onFormSubmit);
    }
 
    init();
